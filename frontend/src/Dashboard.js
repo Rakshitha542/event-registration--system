@@ -25,10 +25,10 @@ setEvents(res.data);
 }
 
 useEffect(()=>{
-  if(user){
+  
 fetchEvents();
-  }
-},[user]);
+  
+},[]);
 if(!user.name){
 return <h3 className="text-center mt-5">Please login...</h3>;
 }
