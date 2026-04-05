@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
 
 import AddEvent from "./components/AddEvent";
 import EventList from "./components/EventList";
