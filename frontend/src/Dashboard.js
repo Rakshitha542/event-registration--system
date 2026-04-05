@@ -1,6 +1,6 @@
 import React from "react";
-import AddEvent from "./AddEvent";
-import EventList from "./EventList";
+import AddEvent from "./components/AddEvent";
+import EventList from "./components/EventList";
 
 function Dashboard() {
   let user = {};
